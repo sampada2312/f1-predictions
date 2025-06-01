@@ -57,14 +57,14 @@ A plot was generated showing feature importance using XGBoost, indicating that:
 
 - `QualifyingTime` had the strongest predictive power.
 - `TeamPerformanceScore`, `RecentForm`, and `TireDegradation` followed.
-- Several features used in the model, such as `TeamPerformanceScore`, `RecentForm`, and `TireDegradation`, were derived by combining and interpreting various elements available through the FastF1 API. This feature engineering was carried out by aggregating and interpreting multiple raw metrics—such as stint lengths, lap times, tire compounds, constructor standings, and driver performance trends—helping the model capture underlying patterns in race dynamics and ultimately improving its predictive accuracy.
+- Several features used in the model, such as `TeamPerformanceScore`, `RecentForm`, and `TireDegradation`, were derived by combining and interpreting various elements available through the FastF1 API. This feature engineering was carried out by aggregating and interpreting multiple raw metrics such as stint lengths, lap times, tire compounds, constructor standings, and driver performance trends, helping the model capture underlying patterns in race dynamics and ultimately improving its predictive accuracy.
 <img width="787" alt="image" src="https://github.com/user-attachments/assets/61458856-21de-45b0-97df-da7afb9eb51f" />
 
 
 ## Results
 
 - Predictions showed high correlation with actual results, with notable success in predicting podium finishes.
-- However, **Max Verstappen**, who was predicted to finish **3rd**, ended up in **10th** due to **a 10-second penalty**—an unforeseen race event that the model could not account for.
+- However, **Max Verstappen**, who was predicted to finish **3rd**, ended up in **10th** due to **a 10-second penalty**, an unforeseen race event that the model could not account for.
   1. Oscar Piastri
   2. Lando Norris
   3. Max Verstappen *(actual: 10th due to penalty)*
