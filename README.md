@@ -5,7 +5,7 @@ This project uses historical F1 data from the 2024 Spanish Grand Prix (Barcelona
 ## Data Sources
 
 - **FastF1 API**: Used to collect session data (laps, weather, car telemetry, etc.)
-- **OpenWeatherMap API** – fetched race-day weather forecasts.
+- **OpenWeatherMap API**: fetched race-day weather forecasts.
 - **2024 Spanish Grand Prix**: Used as the training dataset
 - **2025 Qualifying Session Data**: Used for inference
 
@@ -57,6 +57,7 @@ A plot was generated showing feature importance using XGBoost, indicating that:
 
 - `QualifyingTime` had the strongest predictive power.
 - `TeamPerformanceScore`, `RecentForm`, and `TireDegradation` followed.
+<img width="787" alt="image" src="https://github.com/user-attachments/assets/61458856-21de-45b0-97df-da7afb9eb51f" />
 
 
 ## Results
